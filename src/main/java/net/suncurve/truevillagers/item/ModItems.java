@@ -13,10 +13,10 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TrueVillagers.MOD_ID);
 
     public static final RegistryObject<Item> PIGPEN = ITEMS.register("pig_pen",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TRUEVILLAGERS_TAB)));
 
     public static final RegistryObject<Item> COWPEN = ITEMS.register("cow_pen",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TRUEVILLAGERS_TAB)));
 
 
 

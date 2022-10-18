@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "copper_ingot",
+  "ingredient": {
+    "item": "truevillagers:citrine_ore"
+  },
+  "result": "truevillagers:citrine_block",
+  "experience": 0.9,
+  "cookingtime": 400
+}
