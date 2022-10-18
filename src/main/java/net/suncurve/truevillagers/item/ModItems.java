@@ -15,6 +15,9 @@ public class ModItems {
     public static final RegistryObject<Item> PIGPEN = ITEMS.register("pig_pen",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> COWPEN = ITEMS.register("cow_pen",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
 
 
     public static void register(IEventBus eventBus) {

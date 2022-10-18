@@ -1,3 +1,6 @@
 {
-  "item.truevillagers.pig_pen": "Pig Pen"
+  "item.truevillagers.pig_pen": "Pig Pen",
+  "item.truevillagers.cow_pen": "Cow Pen",
+
+  "block.truevillagers.citrine_block": "Citrine Block"
 }

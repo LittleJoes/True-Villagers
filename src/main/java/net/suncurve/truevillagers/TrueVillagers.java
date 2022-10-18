@@ -14,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.suncurve.truevillagers.block.ModBlocks;
 import net.suncurve.truevillagers.item.ModItems;
 import org.slf4j.Logger;
 
@@ -32,6 +33,7 @@ public class TrueVillagers {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
 
         eventBus.addListener(this::setup);
