@@ -32,7 +32,7 @@ public class ModBlocks {
             ), ModCreativeModeTab.TRUEVILLAGERS_TAB);
 
     public static final RegistryObject<Block> TOWN_HALL_BLOCK = registerBlock("town_hall_block",
-            () -> new TownHallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()), ModCreativeModeTab.TRUEVILLAGERS_TAB);
+            () -> new TownHallBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion()), ModCreativeModeTab.TRUEVILLAGERS_TAB);
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);
