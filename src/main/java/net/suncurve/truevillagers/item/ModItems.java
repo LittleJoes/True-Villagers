@@ -7,6 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.suncurve.truevillagers.TrueVillagers;
+import net.suncurve.truevillagers.item.custom.DowsingRodItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -17,6 +18,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> COWPEN = ITEMS.register("cow_pen",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TRUEVILLAGERS_TAB)));
+
+    public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
+            () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.TRUEVILLAGERS_TAB).durability(16)));
 
 
 

@@ -1,0 +1,9 @@
+
+{
+  "variants": {
+    "facing=north": { "model": "truevillagers:block/town_hall_block" },
+    "facing=east": { "model": "truevillagers:block/town_hall_block", "y": 90 },
+    "facing=south": { "model": "truevillagers:block/town_hall_block", "y": 180 },
+    "facing=west": { "model": "truevillagers:block/town_hall_block", "y": 270 }
+  }
+}

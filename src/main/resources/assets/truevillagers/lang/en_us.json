@@ -1,9 +1,13 @@
 {
   "item.truevillagers.pig_pen": "Pig Pen",
   "item.truevillagers.cow_pen": "Cow Pen",
+  "item.truevillagers.dowsing_rod": "Dowsing Rod",
 
   "block.truevillagers.citrine_block": "Citrine Block",
   "block.truevillagers.citrine_ore": "Citrine Ore",
+  "block.truevillagers.town_hall_block": "Town Hall",
 
-  "itemGroup.truevillagerstab": "True Villagers"
+  "itemGroup.truevillagerstab": "True Villagers",
+  "item.truevillagers.dowsing_rod.no_valuables": "No valuables found!"
+
 }
